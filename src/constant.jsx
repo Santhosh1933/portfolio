@@ -82,6 +82,8 @@ export const projects = [
   },
 ];
 
+export const gitUserName="Santhosh1933"
+export const leetCodeUserName="santhoshcse"
 
 export const getInTouch = [
   {
