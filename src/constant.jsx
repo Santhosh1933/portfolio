@@ -1,6 +1,6 @@
 export const name = "Santhosh";
 export const description = `MERN Stack Developer , Proficient in React, Java, Python, and Git , Open to Connect for Mentoring and Guidance in Learning New Technologies`;
-
+export const cvLink = "https://media.licdn.com/dms/document/media/D562DAQElGN3msWJtsQ/profile-treasury-document-pdf-analyzed/0/1718879914528?e=1727308800&v=beta&t=En53ZhHZ3YqJ-00kmPvu31Uu6Qrpr6VovTKpKelwO0A"
 export const about = (
   <p>
     I am Santhosh S, a software developer from Kallakurichi, Tamilnadu, and a{" "}
