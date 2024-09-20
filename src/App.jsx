@@ -8,6 +8,7 @@ import { Projects } from "./components/custom/Projects";
 import { GitHub } from "./components/custom/GitHub";
 import { LeetCodeStats } from "./components/custom/LeetCodeStats";
 import { GetInTouch } from "./components/custom/GetInTouch";
+
 export default function App() {
   return (
     <div className="container space-y-16 my-20">

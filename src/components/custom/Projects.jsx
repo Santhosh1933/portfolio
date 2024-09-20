@@ -3,6 +3,7 @@ import React from "react";
 import { Button } from "../ui/button";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { Workflow } from "lucide-react";
+import { ProjectDocs } from "./ProjectDocs";
 
 export const Projects = () => {
   return (
@@ -19,6 +20,17 @@ export const Projects = () => {
               <a href={project.link} target="_blank">
                 {project.name}
               </a>
+              {project.docs && (
+                <ProjectDocs
+                  trigger={
+                    <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
+                      Docs
+                    </span>
+                  }
+                  src={project.docs}
+                  title={project.name}
+                />
+              )}
             </h3>
             <time class="block mb-2 leading-7 font-medium  text-gray-600">
               {project.technologies.join(" - ")}
@@ -26,12 +38,22 @@ export const Projects = () => {
             <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
               {project.description}
             </p>
-            <div className="grid grid-cols-1 sm:flex gap-2">
-              <a target="_blank" href={project.link}>
-                <Button className="sm:w-fit">Live Preview</Button>
-              </a>
-              <a target="_blank" href={project.github}>
-                <Button className="sm:w-fit gap-2" variant="outline">
+            <div className="grid grid-cols-1 sm:flex gap-3">
+              {project.link && (
+                <a
+                  target="_blank"
+                  className="sm:w-fit w-full"
+                  href={project.link}
+                >
+                  <Button className="sm:w-fit w-full">Live Preview</Button>
+                </a>
+              )}
+              <a
+                target="_blank"
+                className="sm:w-fit w-full"
+                href={project.github}
+              >
+                <Button className="sm:w-fit w-full gap-2" variant="outline">
                   Source Code <GitHubLogoIcon />
                 </Button>
               </a>

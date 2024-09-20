@@ -1,6 +1,10 @@
+import textToSqlLLM from "@/assets/Docs/textToSqlLLM.md";
+import AiQuizGenerator from "@/assets/Docs/AiQuizGenerator.md";
+
 export const name = "Santhosh";
 export const description = `MERN Stack Developer , Proficient in React, Java, Python, and Git , Open to Connect for Mentoring and Guidance in Learning New Technologies`;
-export const cvLink = "https://media.licdn.com/dms/document/media/D562DAQElGN3msWJtsQ/profile-treasury-document-pdf-analyzed/0/1718879914528?e=1727308800&v=beta&t=En53ZhHZ3YqJ-00kmPvu31Uu6Qrpr6VovTKpKelwO0A"
+export const cvLink =
+  "https://media.licdn.com/dms/document/media/D562DAQElGN3msWJtsQ/profile-treasury-document-pdf-analyzed/0/1718879914528?e=1727308800&v=beta&t=En53ZhHZ3YqJ-00kmPvu31Uu6Qrpr6VovTKpKelwO0A";
 export const about = (
   <p>
     I am Santhosh S, a software developer from Kallakurichi, Tamilnadu, and a{" "}
@@ -65,6 +69,21 @@ export const skills = [
 
 export const projects = [
   {
+    name: "Text-to-SQL LLM",
+    technologies: [
+      "Streamlit",
+      "Google's Gemini AI",
+      "SQLite",
+      "Python",
+      "dotenv",
+    ],
+    description:
+      "Developed a Streamlit app that converts natural language queries into SQL using Google's Gemini AI and retrieves relevant data from an SQLite database. The app allows users to input a natural language question and generates an SQL query on the fly for data retrieval.",
+    link: null,
+    github: "https://github.com/Santhosh1933/text-sql-llm",
+    docs: textToSqlLLM,
+  },
+  {
     name: "AI Quiz Generator",
     technologies: [
       "React.js",
@@ -79,11 +98,12 @@ export const projects = [
       "Created quizzes with AI-generated questions and customized parameters. Implemented secure authentication with Clerk and allowed users to download quiz data in CSV format. Deployed for performance and scalability.",
     link: "https://ai-powered-app-react.vercel.app/",
     github: "https://github.com/Santhosh1933/ai-powered-app-frontend",
+    docs: AiQuizGenerator,
   },
 ];
 
-export const gitUserName="Santhosh1933"
-export const leetCodeUserName="santhoshcse"
+export const gitUserName = "Santhosh1933";
+export const leetCodeUserName = "santhoshcse";
 
 export const getInTouch = [
   {
