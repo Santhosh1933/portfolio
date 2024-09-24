@@ -1,6 +1,4 @@
 
-# AI Powered Quiz Application
-
 ## Overview
 
 This project allows users to create quizzes using Gemini AI, answer questions, and review their performance. It utilizes React, Chakra UI, Clerk for authentication, and React Query for data fetching.
