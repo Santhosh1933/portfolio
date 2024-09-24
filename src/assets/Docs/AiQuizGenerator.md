@@ -5,12 +5,17 @@
 
 This project allows users to create quizzes using Gemini AI, answer questions, and review their performance. It utilizes React, Chakra UI, Clerk for authentication, and React Query for data fetching.
 
+
 ## Key Features
 
 1. **User Authentication**: Users can sign in via Clerk.
 2. **Quiz Creation**: Users can create quizzes using Gemini AI.
 3. **Quiz Taking**: Users can answer quiz questions and navigate through them.
 4. **Review**: After submission, users can review their answers and scores.
+
+
+## Here’s a demo video of my work:
+https://github.com/user-attachments/assets/8fb8fedc-3544-4d16-94bd-5329d45812f8
 
 ## Setup Instructions
 
