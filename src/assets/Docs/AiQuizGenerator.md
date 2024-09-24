@@ -13,8 +13,11 @@ This project allows users to create quizzes using Gemini AI, answer questions, a
 
 
 ## Here’s a demo video of my work:
-https://github.com/user-attachments/assets/8fb8fedc-3544-4d16-94bd-5329d45812f8
 
+<video width="640" height="360" controls preload="none">
+  <source src="/videos/AiQuizGenerator.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ## Setup Instructions
 
 ### 1. Install Dependencies

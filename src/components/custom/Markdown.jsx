@@ -1,10 +1,14 @@
 import React from "react";
-import ReactMarkdown from 'react-markdown'
+import ReactMarkdown from "react-markdown";
+import rehypeRaw from "rehype-raw";
+
 export const Markdown = ({ markdown }) => {
   return (
     <div>
       <div className="prose max-w-full">
-        <ReactMarkdown>{markdown}</ReactMarkdown>
+        <ReactMarkdown rehypePlugins={[rehypeRaw]}>
+          {markdown}
+        </ReactMarkdown>
       </div>
     </div>
   );

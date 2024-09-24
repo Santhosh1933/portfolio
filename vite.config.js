@@ -8,8 +8,8 @@ export default defineConfig({
     {
       name: "markdown-loader",
       transform(code, id) {
-        if (id.slice(-3) === ".md") {
-          // For .md files, get the raw content
+        if (id.endsWith(".md")) {
+          // For .md files, transform the raw content for usage
           return `export default ${JSON.stringify(code)};`;
         }
       },
