@@ -1,6 +1,15 @@
-### Step-by-Step Documentation for the Streamlit Text-to-SQL App 
+# Test To Sql LLM
+
+## Step-by-Step Documentation for the Streamlit Text-to-SQL App 
 
 This guide explains how the Streamlit application is set up, step-by-step. The app converts a natural language question into an SQL query using Google's Gemini AI model and retrieves relevant data from an SQLite database.
+
+## Here’s a demo video of my work:
+
+
+https://github.com/user-attachments/assets/158c9632-5194-480f-909f-f4fcb1e1d249
+
+
 
 #### **Step 1: Import Required Libraries**
 The application imports the necessary libraries to make the app function:
