@@ -122,7 +122,7 @@ export const getInTouch = [
     method: "LinkedIn",
     details: "santhosh-s-163a04263",
     icon: "🔗",
-    link: "https://www.linkedin.com/in/santhosh-s-163a04263/",
+    link: "https://www.linkedin.com/in/santhoshcse/",
   },
   {
     method: "LeetCode",
