@@ -17,7 +17,7 @@ export const Projects = () => {
               <Workflow className="p-1 text-blue-900" />
             </span>
             <h3 class="flex items-start mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-              <a href={project.link} target="_blank">
+              <a href={project.github} target="_blank">
                 {project.name}
               </a>
               {project.docs && (

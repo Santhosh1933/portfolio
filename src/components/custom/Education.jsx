@@ -20,7 +20,7 @@ export const Education = () => {
               </svg>
             </span>
             <h3 class="flex items-start mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-              <a href={edu.companyUrl} target="_blank">
+              <a href={edu.institutionUrl} target="_blank">
                 {edu.institution}
               </a>
 
