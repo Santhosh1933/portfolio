@@ -4,6 +4,7 @@ import { Button } from "../ui/button";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { Workflow } from "lucide-react";
 import { ProjectDocs } from "./ProjectDocs";
+import { RoughNotation } from "react-rough-notation";
 
 export const Projects = () => {
   return (
@@ -24,7 +25,7 @@ export const Projects = () => {
                 <ProjectDocs
                   trigger={
                     <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
-                      Docs
+                      <RoughNotation type="circle" show="true">Docs</RoughNotation>
                     </span>
                   }
                   src={project.docs}

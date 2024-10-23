@@ -3,7 +3,7 @@ import { cvLink, description, name } from "@/constant";
 import React from "react";
 import { Button } from "../ui/button";
 import { Helmet } from "react-helmet-async";
-
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 export const Hero = () => {
   return (
     <div className="">
@@ -38,7 +38,13 @@ export const Hero = () => {
       <div className="flex flex-wrap sm:flex-nowrap gap-4">
         <div className="">
           <h1 className="text-4xl font-medium  md:text-5xl">
-            Hi, I'm {name} 👋
+            Hi, I'm{" "}
+            <span>
+              <RoughNotation type="highlight" color="yellow"  show={true}>
+                {name}
+              </RoughNotation>
+            </span>
+            👋
           </h1>
           <p className="pt-2 sm:text-xl font-medium text-gray-700">
             {description}
