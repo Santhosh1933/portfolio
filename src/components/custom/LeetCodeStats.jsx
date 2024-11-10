@@ -7,6 +7,7 @@ export const LeetCodeStats = () => {
       <h1 className="font-medium pb-4 text-2xl">LeetCode</h1>
       <div>
         <img
+        id="leetcode-stats"
           src={`https://leetcard.jacoblin.cool/${leetCodeUserName}?ext=activity&animation=true&theme=default`}
           alt=""
         />

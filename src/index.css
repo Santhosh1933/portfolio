@@ -71,3 +71,23 @@
 *{
   font-family: "Poppins", sans-serif;
 }
+
+.shepherd-content{
+  @apply border border-black border-collapse
+}
+.shepherd-has-title .shepherd-content .shepherd-header{
+  @apply bg-white !important
+}
+.shepherd-title{
+  @apply text-xl font-semibold  !important
+}
+.shepherd-text{
+  @apply text-black !important
+}
+
+.shepherd-footer{
+  @apply flex mt-6 !important
+}
+.shepherd-button{
+  @apply w-full !important
+}

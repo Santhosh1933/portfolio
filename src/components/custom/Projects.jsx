@@ -24,7 +24,7 @@ export const Projects = () => {
               {project.docs && (
                 <ProjectDocs
                   trigger={
-                    <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
+                    <span  class=" docs bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
                       <RoughNotation type="circle" show="true">Docs</RoughNotation>
                     </span>
                   }
@@ -45,6 +45,7 @@ export const Projects = () => {
                   target="_blank"
                   className="sm:w-fit w-full"
                   href={project.link}
+                  id="live-link"
                 >
                   <Button className="sm:w-fit w-full">Live Preview</Button>
                 </a>
@@ -53,6 +54,8 @@ export const Projects = () => {
                 target="_blank"
                 className="sm:w-fit w-full"
                 href={project.github}
+                id="source-code"
+
               >
                 <Button className="sm:w-fit w-full gap-2" variant="outline">
                   Source Code <GitHubLogoIcon />

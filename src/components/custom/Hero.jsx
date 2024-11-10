@@ -39,7 +39,7 @@ export const Hero = () => {
         <div className="">
           <h1 className="text-4xl font-medium  md:text-5xl">
             Hi, I'm{" "}
-            <span>
+            <span id="my-name">
               <RoughNotation type="highlight" color="yellow"  show={true}>
                 {name}
               </RoughNotation>
@@ -49,8 +49,8 @@ export const Hero = () => {
           <p className="pt-2 sm:text-xl font-medium text-gray-700">
             {description}
           </p>
-          <Button className="mt-4">
-            <a href={cvLink} target="_blank">
+          <Button className="mt-4" id="resume">
+            <a href={cvLink} target="_blank" >
               Download my CV
             </a>
           </Button>
