@@ -1,5 +1,3 @@
-name: Build and Deploy to Docker Hub
-
 on:
   push:
     branches:
@@ -56,3 +54,7 @@ jobs:
       - name: Push Docker image
         run: |
           docker push ${{ secrets.DOCKER_USERNAME }}/portfolio:latest
+
+      - name: Trigger Render Deploy Hook
+        run: |
+          curl -X POST ${{ secrets.RENDER_DEPLOY_URL }}
