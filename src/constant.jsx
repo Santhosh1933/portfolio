@@ -1,27 +1,33 @@
 import textToSqlLLM from "@/assets/Docs/textToSqlLLM.md";
 import AiQuizGenerator from "@/assets/Docs/AiQuizGenerator.md";
-
+import resume from "@/assets/Docs/santhosh_resume.pdf"
 export const name = "Santhosh";
-export const description = `MERN Stack Developer , Proficient in React, Java, Python, and Git , Open to Connect for Mentoring and Guidance in Learning New Technologies`;
-export const cvLink =
-  "https://media.licdn.com/dms/document/media/D562DAQElGN3msWJtsQ/profile-treasury-document-pdf-analyzed/0/1718879914528?e=1727308800&v=beta&t=En53ZhHZ3YqJ-00kmPvu31Uu6Qrpr6VovTKpKelwO0A";
+export const description = `Machine Learning Engineer skilled in Python, React, Git, and Docker. Open to mentoring and collaboration.`;
+export const cvLink = resume;
 export const about = (
   <p>
-    I am Santhosh S, a software developer from Kallakurichi, Tamilnadu, and a{" "}
-    <b>2024 graduate</b> in <b>Computer Science and Engineering</b> from{" "}
-    <b>K.S. Rangasamy College of Technology</b>. I have a strong foundation in{" "}
-    <b>Python</b>, <b>Java</b>, <b>React.js</b>, <b>Node.js</b>, and{" "}
-    <b>MongoDB</b>, with a passion for building responsive and high-performance
-    applications. My expertise extends to modern web technologies, database
-    management, and developer tools like <b>Git</b> and <b>GitHub</b>. Along
-    with my technical skills, I hold an <b>NCC C certificate</b> with an "A"
-    grade, reflecting my leadership, discipline, and ability to manage
-    challenges effectively. I am dedicated to writing clean, efficient code and
-    creating seamless user experiences.
+      I am Santhosh S, skilled in <b>Python</b>, <b>Java</b>, <b>React.js</b>, 
+      <b>Node.js</b>, and <b>MongoDB</b>, with a passion for creating responsive, 
+      high-performance applications. My expertise includes modern web technologies, 
+      database management, and tools like <b>Git</b> and <b>GitHub</b>. I also hold 
+      an <b>NCC C certificate</b> with an "A" grade, reflecting my leadership and 
+      discipline. Currently, I work as a <b>Trainee Machine Learning Engineer</b> 
+      at <b>Tiger Analytics</b>, focusing on machine learning and data-driven solutions.
   </p>
+
 );
 
 export const workExperience = [
+  {
+    logo: "https://media.licdn.com/dms/image/C4E0BAQEvQs0OiRRELA/company-logo_200_200/0/1519907437947?e=1734566400&v=beta&t=dGcIV28hI8yHUC-JWZIkB7GVF23qgkT3bEBG0DojH2c",
+    company: "Tiger Analytics",
+    companyUrl: "https://www.tigeranalytics.com/",
+    role: "Trainee Machine Learning Engineer",
+    duration: "October 2024 - Present",
+    type: "Full-time",
+    description:
+      "Expanding expertise in machine learning and data-driven solutions by developing scalable models and collaborating on impactful projects to drive business insights.",
+  },
   {
     logo: "https://media.licdn.com/dms/image/v2/D560BAQHzSRVoToQ7TQ/company-logo_200_200/company-logo_200_200/0/1680331371715?e=1734566400&v=beta&t=_MPacvipalax_yH01RoMUfViCKZep6zpHwk3fsXVUsw",
     company: "Strackit Private Limited",
@@ -32,7 +38,9 @@ export const workExperience = [
     description:
       "Developed and launched an e-commerce website, 'The Divine Cakery', utilizing React.js and Tailwind CSS. Implemented GraphQL API for efficient data handling, enhancing overall website performance and user experience.",
   },
+
 ];
+
 
 export const education = [
   {
@@ -55,6 +63,7 @@ export const education = [
 ];
 export const skills = [
   "Python",
+  "Docker",
   "Java",
   "React.js",
   "Node.js",
