@@ -1,6 +1,6 @@
 import textToSqlLLM from "@/assets/Docs/textToSqlLLM.md";
 import AiQuizGenerator from "@/assets/Docs/AiQuizGenerator.md";
-import resume from "@/assets/Docs/santhosh_resume.pdf"
+import resume from "@/assets/Docs/resume.pdf"
 export const name = "Santhosh";
 export const description = `Machine Learning Engineer skilled in Python, React, Git, and Docker. Open to mentoring and collaboration.`;
 export const cvLink = resume;
