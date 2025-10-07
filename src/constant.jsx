@@ -6,23 +6,23 @@ export const description = `Machine Learning Engineer skilled in Python, React, 
 export const cvLink = resume;
 export const about = (
   <p>
-      I am Santhosh S, skilled in <b>Python</b>, <b>Java</b>, <b>React.js</b>, 
-      <b>Node.js</b>, and <b>MongoDB</b>, with a passion for creating responsive, 
-      high-performance applications. My expertise includes modern web technologies, 
-      database management, and tools like <b>Git</b> and <b>GitHub</b>. I also hold 
-      an <b>NCC C certificate</b> with an "A" grade, reflecting my leadership and 
-      discipline. Currently, I work as a <b>Trainee Machine Learning Engineer</b> 
-      at <b>Tiger Analytics</b>, focusing on machine learning and data-driven solutions.
+    Analyst at <b>Tiger Analytics</b>, skilled in building <b>full-stack applications</b> with a strong 
+    foundation in <b>React.js</b> and modern development practices. I specialize in creating and deploying 
+    custom <b>LLM Agents</b>, seamlessly integrating them into scalable systems. Experienced in 
+    <b> Docker</b> and <b>GitHub Actions</b> for CI/CD automation, I focus on delivering efficient, 
+    production-ready solutions. Passionate about exploring emerging technologies and crafting innovative 
+    digital experiences end to end.
   </p>
-
 );
+
+
 
 export const workExperience = [
   {
     logo: "https://media.licdn.com/dms/image/C4E0BAQEvQs0OiRRELA/company-logo_200_200/0/1519907437947?e=1734566400&v=beta&t=dGcIV28hI8yHUC-JWZIkB7GVF23qgkT3bEBG0DojH2c",
     company: "Tiger Analytics",
     companyUrl: "https://www.tigeranalytics.com/",
-    role: "Trainee Machine Learning Engineer",
+    role: "Analyst Machine Learning Engineer",
     duration: "October 2024 - Present",
     type: "Full-time",
     description:
@@ -63,6 +63,10 @@ export const education = [
 ];
 export const skills = [
   "Python",
+  "MCP",
+  "Langgraph",
+  "Streamlit",
+  "FastAPI",
   "Docker",
   "Java",
   "React.js",
